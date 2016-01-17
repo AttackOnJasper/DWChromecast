@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "DWChromecast"
   s.version          = "0.1.0"
-  s.summary          = "A short description of DWChromecast."
+  s.summary          = "DWChromecast provides extension to Google Cast."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,6 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
+                       DWChromecast provides abstractions and implementations for projects that want to integrate Google Cast
                        DESC
 
   s.homepage         = "https://github.com/AttackOnJasper/DWChromecast"
@@ -35,8 +36,5 @@ Pod::Spec.new do |s|
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
-  # s.vendored_frameworks = ''
   s.dependency 'google-cast-sdk'
 end
