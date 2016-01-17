@@ -34,3 +34,8 @@ Carthage
 *.xcworkspacedata
 Example/Pods/google-cast-sdk
 Example/Pods/Headers
+Example/Pods/Target Support Files
+Example/Pods/Local Podspecs
+Manifest.lock
+DWChromecast.xcscheme
+project.pbxproj
