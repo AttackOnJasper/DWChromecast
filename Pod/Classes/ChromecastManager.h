@@ -7,7 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <GoogleCast/GCKCastChannel.h>
 
 @interface ChromecastManager : NSObject
+
+@property (strong, nonatomic) GCKCastChannel *castChannel;
 
 @end

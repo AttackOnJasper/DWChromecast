@@ -33,3 +33,4 @@ Carthage
 # Pods/
 *.xcworkspacedata
 Example/Pods/google-cast-sdk
+Example/Pods/Headers
