@@ -1,9 +1,5 @@
 # DWChromecast
 
-[![CI Status](http://img.shields.io/travis/AttackOnJasper/DWChromecast.svg?style=flat)](https://travis-ci.org/AttackOnJasper/DWChromecast)
-[![Version](https://img.shields.io/cocoapods/v/DWChromecast.svg?style=flat)](http://cocoapods.org/pods/DWChromecast)
-[![License](https://img.shields.io/cocoapods/l/DWChromecast.svg?style=flat)](http://cocoapods.org/pods/DWChromecast)
-[![Platform](https://img.shields.io/cocoapods/p/DWChromecast.svg?style=flat)](http://cocoapods.org/pods/DWChromecast)
 
 ## Usage
 
