@@ -19,11 +19,11 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/DWChromecast"
+  s.homepage         = "https://github.com/AttackOnJasper/DWChromecast"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "AttackOnJasper" => "wangdc2010@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/DWChromecast.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/AttackOnJasper/DWChromecast.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
@@ -37,4 +37,6 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  # s.vendored_frameworks = ''
+  s.dependency 'google-cast-sdk'
 end
