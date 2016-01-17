@@ -89,9 +89,9 @@
 @property(nonatomic, strong) GCKMediaControlChannel *mediaControlChannel;
 
 /**
- *  Display the media currently being cast.
+ *  The media information of the loaded media on the device.
  */
-- (void)displayCurrentlyPlayingMedia;
+@property(nonatomic, readonly) GCKMediaInformation *mediaInformation;
 
 /**
  *  Sets the position of the playback on the Cast device.
@@ -113,4 +113,3 @@
 - (void)enableLogging;
 
 @end
-
