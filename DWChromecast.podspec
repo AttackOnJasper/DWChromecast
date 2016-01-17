@@ -37,6 +37,6 @@ Pod::Spec.new do |s|
   s.public_header_files = 'Pod/Classes/**/*.h'
   s.ios.frameworks = 'Accelerate', 'AudioToolbox', 'AVFoundation', 'CoreBluetooth', 'CoreText', 'MediaAccessibility', 'MediaPlayer', 'MediaToolbox', 'SystemConfiguration'
   s.library = 'c++'
-  s.vendored_frameworks = 'Pod/GoogleCast//GoogleCast.framework'
+  s.vendored_frameworks = 'Pod/GoogleCast/GoogleCast.framework'
 #  s.dependency 'google-cast-sdk'
 end
