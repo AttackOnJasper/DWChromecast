@@ -18,10 +18,6 @@ source 'https://github.com/AttackOnJasper/DWChromecast.git'
 
 pod 'DWChromecast', :git => 'https://github.com/AttackOnJasper/DWChromecast.git'
 
-pre_install do |installer|
-    # workaround for https://github.com/CocoaPods/CocoaPods/issues/3289
-    def installer.verify_no_static_framework_transitive_dependencies; end
-end
 ```
 
 ## Author
